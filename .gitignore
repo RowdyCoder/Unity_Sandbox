@@ -58,3 +58,12 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Unity Project directories to ignore
+TBS/Library/
+TBS/Temp/
+TBS/Logs/
+TBS/Assets/PolygonBossZombies/
+TBS/Assets/PolygonHeist/
+TBS/Assets/PolygonPrototype/
+TBS/Assets/PolygonSciFiCity/
+
