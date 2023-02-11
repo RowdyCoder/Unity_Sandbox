@@ -14,11 +14,11 @@ public class MouseWorld : MonoBehaviour
         _instance = this;
     }
 
-    private void Update()
-    {
-        transform.position = MouseWorld.GetPosition();
+    //private void Update()
+    //{
+    //    transform.position = MouseWorld.GetPosition();
 
-    }
+    //}
 
     public static Vector3 GetPosition()
     {
