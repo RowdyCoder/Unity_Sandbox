@@ -9,6 +9,11 @@ public class Unit : MonoBehaviour
     [SerializeField] float rotateSpeed = 10f;
     private Vector3 _targetPosition;
 
+    private void Awake()
+    {
+        _targetPosition = transform.position;
+    }
+
     private void Update()
     {
         float stoppingDistance = 0.1f;
@@ -29,12 +34,14 @@ public class Unit : MonoBehaviour
             _unitAnimator.SetBool("isWalking", false);
         }
 
-        if (Input.GetMouseButtonDown(0))
-        {
-            Move(MouseWorld.GetPosition());
-        }
+        //---Commented out now that we have the UnitActionSystem class
+        //if (Input.GetMouseButtonDown(0))
+        //{
+        //    Move(MouseWorld.GetPosition());
+        //}
     }
-    private void Move(Vector3 targetPosition)
+
+    public void Move(Vector3 targetPosition)
     {
         _targetPosition = targetPosition;
     }
