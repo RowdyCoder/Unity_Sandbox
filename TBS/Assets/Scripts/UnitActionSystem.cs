@@ -16,7 +16,8 @@ public class UnitActionSystem : MonoBehaviour
     private void Awake()
     {
         //this check is normally not neccesary
-        if(Instance != null{
+        if(Instance != null)
+        {
             Debug.LogError("There's more than one UnitActionSystem! " + transform + " - " + Instance);
             Destroy(gameObject);
             return;
