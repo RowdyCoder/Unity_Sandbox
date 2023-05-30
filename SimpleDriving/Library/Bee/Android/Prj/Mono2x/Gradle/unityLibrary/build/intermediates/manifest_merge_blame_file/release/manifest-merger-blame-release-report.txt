@@ -1,0 +1,155 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player" >
+5
+6    <uses-sdk
+7        android:minSdkVersion="22"
+7-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+8        android:targetSdkVersion="32" />
+8-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+9
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-65
+10-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-62
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-52
+12-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:17-49
+13    <uses-feature
+13-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:17-63
+15        android:required="false" />
+15-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:64-88
+16    <uses-feature
+16-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:3-88
+17        android:name="android.hardware.touchscreen"
+17-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-60
+18        android:required="false" />
+18-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:61-85
+19    <uses-feature
+19-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:3-99
+20        android:name="android.hardware.touchscreen.multitouch"
+20-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:17-71
+21        android:required="false" />
+21-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:72-96
+22    <uses-feature
+22-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:3-108
+23        android:name="android.hardware.touchscreen.multitouch.distinct"
+23-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-80
+24        android:required="false" />
+24-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:81-105
+25
+26    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+26-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-75
+26-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:20-72
+27
+28    <application android:extractNativeLibs="true" >
+28-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:3-30:17
+28-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:16-48
+29        <meta-data
+29-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:5-69
+30            android:name="unity.splash-mode"
+30-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:16-48
+31            android:value="0" />
+31-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:49-66
+32        <meta-data
+32-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:5-74
+33            android:name="unity.splash-enable"
+33-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:16-50
+34            android:value="True" />
+34-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:51-71
+35        <meta-data
+35-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:5-78
+36            android:name="unity.launch-fullscreen"
+36-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:16-54
+37            android:value="True" />
+37-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:55-75
+38        <meta-data
+38-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-84
+39            android:name="unity.allow-resizable-window"
+39-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-59
+40            android:value="False" />
+40-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:60-81
+41        <meta-data
+41-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-81
+42            android:name="notch.config"
+42-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-43
+43            android:value="portrait|landscape" />
+43-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:44-78
+44
+45        <activity
+45-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-22:16
+46            android:name="com.unity3d.player.UnityPlayerActivity"
+46-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:15-68
+47            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+47-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:180-361
+48            android:exported="true"
+48-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:433-456
+49            android:hardwareAccelerated="false"
+49-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:397-432
+50            android:launchMode="singleTask"
+50-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:148-179
+51            android:resizeableActivity="false"
+51-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:362-396
+52            android:screenOrientation="portrait"
+52-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:111-147
+53            android:theme="@style/UnityThemeSelector" >
+53-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:69-110
+54            <intent-filter>
+54-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:7-19:23
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:9-69
+55-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:19-66
+56
+57                <action android:name="android.intent.action.MAIN" />
+57-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:9-61
+57-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:17-58
+58            </intent-filter>
+59
+60            <meta-data
+60-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:7-82
+61                android:name="unityplayer.UnityActivity"
+61-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:18-58
+62                android:value="true" />
+62-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:59-79
+63            <meta-data
+63-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:7-70
+64                android:name="notch_support"
+64-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:18-46
+65                android:value="true" />
+65-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:47-67
+66        </activity>
+67
+68        <receiver
+68-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-113
+69            android:name="com.unity.androidnotifications.UnityNotificationManager"
+69-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:15-85
+70            android:exported="false" />
+70-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:86-110
+71        <receiver
+71-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-28:16
+72            android:name="com.unity.androidnotifications.UnityNotificationRestartOnBootReceiver"
+72-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:15-99
+73            android:enabled="false"
+73-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:100-123
+74            android:exported="false" >
+74-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:124-148
+75            <intent-filter>
+75-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:7-27:23
+76                <action android:name="android.intent.action.BOOT_COMPLETED" />
+76-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:9-71
+76-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-68
+77            </intent-filter>
+78        </receiver>
+79
+80        <meta-data
+80-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:5-99
+81            android:name="com.unity.androidnotifications.exact_scheduling"
+81-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:16-78
+82            android:value="0" />
+82-->D:\Users\antho\Git\Unity_Sandbox\SimpleDriving\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:79-96
+83    </application>
+84
+85</manifest>
