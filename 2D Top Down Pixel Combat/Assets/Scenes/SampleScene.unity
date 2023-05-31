@@ -642,6 +642,103 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2326329508619605205, guid: 22b8f6bf8ff0d4f40af535099d3ff006, type: 3}
   m_PrefabInstance: {fileID: 2326329509260781270}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &739635208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 739635209}
+  - component: {fileID: 739635210}
+  - component: {fileID: 739635211}
+  m_Layer: 0
+  m_Name: Weapon Collider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &739635209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739635208}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 834509204}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!60 &739635210
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739635208}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.1888424, y: 2.0653715}
+      - {x: 0.07752478, y: 2.0724256}
+      - {x: 1.1162709, y: 0.5545121}
+      - {x: 0.16162091, y: -0.69273007}
+      - {x: 1.4664, y: -0.52475953}
+      - {x: 1.992851, y: 0.22384971}
+      - {x: 1.9847202, y: 1.4331267}
+  m_UseDelaunayMesh: 0
+--- !u!114 &739635211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739635208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc8aa17874d362d47bb0a7019382a6fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &746542573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -818,6 +915,7 @@ Transform:
   m_Children:
   - {fileID: 1688759479}
   - {fileID: 1635010670}
+  - {fileID: 739635209}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1483,6 +1581,7 @@ MonoBehaviour:
   myAnimator: {fileID: 1389621534}
   slashAnimPrefab: {fileID: 6392734525917563463, guid: 121062a8209e6a4488d46bd9c865ec97, type: 3}
   slashAnimSpawnPoint: {fileID: 1898037448}
+  weaponCollider: {fileID: 739635209}
 --- !u!4 &1604644048 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6500154142148116238, guid: 29bc6ea83831a284692e51b0c47eff0a, type: 3}
